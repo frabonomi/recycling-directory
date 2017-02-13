@@ -16,5 +16,10 @@ module.exports = {
       options: { presets: ['es2015'] },
       exclude: path.resolve(__dirname, "node_modules")
     }]
+  },
+  resolve: {
+    alias: {
+      'vue$': 'vue/dist/vue.common.js'
+    }
   }
 };

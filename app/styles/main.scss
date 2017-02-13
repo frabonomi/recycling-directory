@@ -1,5 +1,5 @@
-@import 'base/base';
+@import url('~normalize.css/normalize.css');
 
-body {
-  background-color: $secondary-color;
-}
+@import 'base/base';
+@import 'components/components';
+@import 'layout/layout';

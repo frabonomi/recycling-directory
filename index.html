@@ -3,9 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Recycling directory</title>
-  <script src="bundle.js"></script>
 </head>
 <body>
+  <app>
+    <div class="rd-hero rd-hero--center rd-hero--primary">
+      <h1 class="rd-hero__title">Recycling directory</h1>
+      <input
+        type="text"
+        class="rd-search-input rd-search-input--large rd-hero__input"
+        v-model="input"
+      >
+    </div>
+  </app>
 
+  <script src="https://unpkg.com/marked@0.3.6"></script>
+  <script src="bundle.js"></script>
 </body>
 </html>
