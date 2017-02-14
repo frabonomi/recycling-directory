@@ -1,0 +1,23 @@
+<template>
+  <div id="app">
+    <div class="rd-hero rd-hero--center rd-hero--primary">
+      <h1 class="rd-hero__title">Recycling directory</h1>
+      <input
+        type="text"
+        class="rd-search-input rd-search-input--large rd-hero__input"
+        v-model="input"
+      >
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'app',
+  data () {
+    return {
+      input: 'Welcome to Your Vue.js App'
+    }
+  }
+}
+</script>
