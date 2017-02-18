@@ -4,8 +4,8 @@
     <input
       type="text"
       class="rd-search-input rd-search-input--large rd-hero__input"
-      v-model="input"
+      v-model="query"
     >
   </div>
-  <results-list></results-list>
+  <results-list v-bind:query="query"></results-list>
 </div>

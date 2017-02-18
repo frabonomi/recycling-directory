@@ -6,7 +6,7 @@ export default {
   components: { ResultsList },
   data() {
     return {
-      input: 'Welcome to Your Vue.js App',
+      query: '',
     }
   }
 }
