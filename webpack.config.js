@@ -11,15 +11,9 @@ module.exports = {
     rules: [{
       test: /\.vue$/,
       loader: 'vue-loader',
-      options: {
-        loaders: {
-          'scss': 'vue-style-loader!css-loader!sass-loader',
-          'sass': 'vue-style-loader!css-loader!sass-loader?indentedSyntax'
-        }
-      }
     },{
-      test: /\.scss$/,
-      loader: ExtractTextPlugin.extract('css-loader!sass-loader'),
+      test: /\.css$/,
+      loader: ExtractTextPlugin.extract('css-loader?importLoaders=1!postcss-loader'),
     }, {
       test: /\.js$/,
       loader: 'babel-loader',

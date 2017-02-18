@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-$sans-serif: 'Roboto', sans-serif;
+:root {
+  --sans-serif: 'Roboto', sans-serif;
+}
 
 * {
-  font-family: $sans-serif;
+  font-family: var(--sans-serif);
   font-size: 100%;
 }
