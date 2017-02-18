@@ -3018,6 +3018,12 @@ postcss-replace-overflow-wrap@^1.0.0:
   dependencies:
     postcss "^5.0.16"
 
+postcss-responsive-type@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/postcss-responsive-type/-/postcss-responsive-type-0.5.1.tgz#274133bc046359e542a58bbc621847d040fd10e6"
+  dependencies:
+    postcss "^5.0.0"
+
 postcss-selector-matches@^2.0.0:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/postcss-selector-matches/-/postcss-selector-matches-2.0.5.tgz#fa0f43be57b68e77aa4cd11807023492a131027f"

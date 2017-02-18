@@ -15,7 +15,7 @@
 }
 
 .rd-hero__title {
-  font-size: 3.5rem;
+  font-size: responsive 2.5rem 3.5rem;
   margin-top: 0;
 }
 
