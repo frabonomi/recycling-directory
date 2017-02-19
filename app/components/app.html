@@ -6,9 +6,12 @@
       class="rd-search-input rd-search-input--large rd-hero__input"
       v-model="query"
     >
-    <select v-model="selectedCity">
-      <option v-for="city in cities" v-bind:value="city">{{ city }}</option>
-    </select>
+    <div class="rd-hero__city">
+      Change:
+      <select class="rd-select" v-model="selectedCity">
+        <option v-for="city in cities" v-bind:value="city">{{ city }}</option>
+      </select>
+    </div>
   </div>
   <results-list v-bind:results="results"></results-list>
 </div>

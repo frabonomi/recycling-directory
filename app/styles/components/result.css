@@ -1,0 +1,18 @@
+.rd-result {
+  border-bottom: 1px solid color(var(--secondary-color) alpha(-90%));
+  list-style: none;
+  padding: 1rem .5rem;
+
+  &:not(:last-child) {
+  }
+}
+
+.rd-result__title {
+  color: var(--subtle);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: .5em;
+}
+
+.rd-result__subtitle {
+  font-size: 1.25rem;
+}

@@ -2,6 +2,7 @@
 
 :root {
   --sans-serif: 'Roboto', sans-serif;
+  --font-weight-bold: 600;
 }
 
 * {

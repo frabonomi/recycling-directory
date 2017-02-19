@@ -1,0 +1,11 @@
+.rd-select {
+  appearance: none;
+  background: rgba(0, 0, 0, .15);
+  border: 0;
+  color: white;
+  display: inline-block;
+  padding: .5em .75em;
+  position: relative;
+  vertical-align: middle;
+  width: auto;
+}

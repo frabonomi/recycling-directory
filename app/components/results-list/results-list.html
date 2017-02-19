@@ -1,8 +1,9 @@
 <div id="results-list">
   <div class="rd-container">
     <ul>
-      <li v-for="item in results">
-        {{ item.name }} ({{ item.city }}) => {{ item.container }}
+      <li class="rd-result" v-for="item in results">
+        <div class="rd-result__title">{{ item.name }}</div>
+        <div class="rd-result__subtitle">{{ item.container }}</div>
       </li>
     </ul>
   </div>

@@ -25,3 +25,10 @@
   max-width: 42.5rem;
   width: 80%;
 }
+
+.rd-hero__city {
+  font-size: .85rem;
+  left: 1rem;
+  position: absolute;
+  top: 1rem;
+}
