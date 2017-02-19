@@ -24,7 +24,6 @@
 </template>
 
 <script>
-  import '../styles/main.css';
   import ResultsList from './ResultsList.vue';
 
   export default {
