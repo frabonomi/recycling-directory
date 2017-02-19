@@ -13,5 +13,8 @@
       </select>
     </div>
   </div>
-  <results-list v-bind:results="results"></results-list>
+  <results-list
+    v-bind:query="query"
+    v-bind:selectedCity="selectedCity"
+  ></results-list>
 </div>
