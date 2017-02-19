@@ -7,14 +7,30 @@ export default {
   components: { ResultsList },
   data: () => {
     return {
-      results: results,
+      cities: [
+        'Varese',
+        'Casciago',
+        'Induno Olona',
+        'Cantello',
+        'Solbiate',
+        'Binago',
+        'Cagno',
+      ],
       query: '',
+      results: {},
+      selectedCity: 'Varese',
     }
   },
   watch: {
-    query: function(query) {
-      this.results = results.filter(
-        (el) => _.includes(el.name.toLowerCase(), query.toLowerCase()));
+    query: function() {
+      if (!this.query || !this.selectedCity) {
+        this.results = {};
+      } else {
+        this.results = results.filter((el) => {
+          return _.includes(el.name.toLowerCase(), this.query.toLowerCase()) &&
+            _.includes(el.city, this.selectedCity);
+        });
+      }
     }
   },
 }
