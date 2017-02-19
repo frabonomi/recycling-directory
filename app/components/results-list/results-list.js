@@ -3,12 +3,12 @@ import results from '../../data/results.json';
 export default {
   name: 'results-list',
   template: '#results-list',
+  props: ['query', 'selectedCity'],
   data: () => {
     return {
       results: {},
     };
   },
-  props: ['query', 'selectedCity'],
   watch: {
     query: function() {
       if (!this.query || !this.selectedCity) {
