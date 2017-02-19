@@ -2,9 +2,6 @@
   border-bottom: 1px solid color(var(--secondary-color) alpha(-90%));
   list-style: none;
   padding: 1rem .5rem;
-
-  &:not(:last-child) {
-  }
 }
 
 .rd-result__title {

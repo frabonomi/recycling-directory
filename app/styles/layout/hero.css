@@ -28,7 +28,7 @@
 
 .rd-hero__city {
   font-size: .85rem;
-  left: 1rem;
   position: absolute;
+  right: 1rem;
   top: 1rem;
 }
