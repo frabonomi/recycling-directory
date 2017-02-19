@@ -1,0 +1,4 @@
+@custom-media --extra-small only screen and (min-width: 320px);
+@custom-media --small only screen and (min-width: 760px);
+@custom-media --medium only screen and (min-width: 1020px);
+@custom-media --large only screen and (min-width: 1280px);
